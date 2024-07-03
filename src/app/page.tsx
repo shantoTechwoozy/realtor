@@ -8,7 +8,7 @@ import Team from "@/components/Team";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Play Next.js - SaaS Starter Kit and Boilerplate for Next.js",
+  title: "Shohidul Islam (Real Estate Agent | Realtor)",
   description:
     "Shohidul Islam (Real Estate Agent | Realtor)",
 };
