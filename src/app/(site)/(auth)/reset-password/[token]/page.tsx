@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Reset Password | Play SaaS Starter Kit and Boilerplate for Next.js",
+  title: "Reset Password | Shohidul Islam (Real Estate Agent | Realtor)",
 };
 
 const ResetPasswordPage = ({ params }: { params: { token: string } }) => {
