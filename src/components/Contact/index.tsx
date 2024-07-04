@@ -1,4 +1,34 @@
+"use client"
+import React, { useState } from "react";
+
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const handleChange = (e: { target: { name: any; value: any; }; }) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = (e: { preventDefault: () => void; }) => {
+    e.preventDefault();
+    // Handle form submission logic here, e.g., send data to a server
+    console.log("Form submitted:", formData);
+    // Reset form fields
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      message: "",
+    });
+  };
+
   return (
     <section id="contact" className="relative py-20 md:py-[120px]">
       <div className="absolute left-0 top-0 -z-[1] h-full w-full dark:bg-dark"></div>
@@ -19,7 +49,6 @@ const Contact = () => {
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="mt-10 w-full px-4 lg:w-7/12 xl:w-8/12">
             <div className="ud-contact-content-wrapper">
-             
               <div className="mb-12 flex flex-wrap justify-between lg:mb-0">
                 <div className="mb-8 flex w-[330px] max-w-full">
                   <div className="mr-6 text-[32px] text-primary">
@@ -75,50 +104,10 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
-                      Our Location
-                    </h3>
-                    <p className="text-base text-body-color dark:text-dark-6">
-                      37600 Central Ct#264, Newark, CA 94569
-                    </p>
-                  </div>
-                </div>
-                <div className="mb-8 flex w-[330px] max-w-full">
-                  <div className="mr-6 text-[32px] text-primary">
-                    <svg
-                      width="34"
-                      height="25"
-                      viewBox="0 0 34 25"
-                      className="fill-current"
-                    >
-                      <path d="M30.5156 0.960938H3.17188C1.42188 0.960938 0 2.38281 0 4.13281V20.9219C0 22.6719 1.42188 24.0938 3.17188 24.0938H30.5156C32.2656 24.0938 33.6875 22.6719 33.6875 20.9219V4.13281C33.6875 2.38281 32.2656 0.960938 30.5156 0.960938ZM30.5156 2.875C30.7891 2.875 31.0078 2.92969 31.2266 3.09375L17.6094 11.3516C17.1172 11.625 16.5703 11.625 16.0781 11.3516L2.46094 3.09375C2.67969 2.98438 2.89844 2.875 3.17188 2.875H30.5156ZM30.5156 22.125H3.17188C2.51562 22.125 1.91406 21.5781 1.91406 20.8672V5.00781L15.0391 12.9922C15.5859 13.3203 16.1875 13.4844 16.7891 13.4844C17.3906 13.4844 17.9922 13.3203 18.5391 12.9922L31.6641 5.00781V20.8672C31.7734 21.5781 31.1719 22.125 30.5156 22.125Z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
                       How Can We Help?
                     </h3>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      shohid.realty@gmail.com
-                    </p>
-                  </div>
-                </div>
-                <div className="mb-8 flex w-[330px] max-w-full">
-                  <div className="mr-6 text-[32px] text-primary">
-                    <svg
-                      width="34"
-                      height="25"
-                      viewBox="0 0 34 25"
-                      className="fill-current"
-                    >
-                      <path d="M30.5156 0.960938H3.17188C1.42188 0.960938 0 2.38281 0 4.13281V20.9219C0 22.6719 1.42188 24.0938 3.17188 24.0938H30.5156C32.2656 24.0938 33.6875 22.6719 33.6875 20.9219V4.13281C33.6875 2.38281 32.2656 0.960938 30.5156 0.960938ZM30.5156 2.875C30.7891 2.875 31.0078 2.92969 31.2266 3.09375L17.6094 11.3516C17.1172 11.625 16.5703 11.625 16.0781 11.3516L2.46094 3.09375C2.67969 2.98438 2.89844 2.875 3.17188 2.875H30.5156ZM30.5156 22.125H3.17188C2.51562 22.125 1.91406 21.5781 1.91406 20.8672V5.00781L15.0391 12.9922C15.5859 13.3203 16.1875 13.4844 16.7891 13.4844C17.3906 13.4844 17.9922 13.3203 18.5391 12.9922L31.6641 5.00781V20.8672C31.7734 21.5781 31.1719 22.125 30.5156 22.125Z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
-                      How Can We Help?
-                    </h3>
-                    <p className="text-base text-body-color dark:text-dark-6">
-                      shohid.realty@gmail.com
+                      (+1) 332-303-5436
                     </p>
                   </div>
                 </div>
@@ -126,9 +115,11 @@ const Contact = () => {
             </div>
           </div>
           <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
-            <div className="relative rounded-lg bg-white p-10 shadow-lg dark:bg-dark sm:p-12">
-              <div className="absolute inset-0 bg-black opacity-30 blur-lg"></div>
-              <form>
+            <div className="ud-contact-form-wrapper relative rounded-lg bg-white p-8 shadow-lg dark:bg-dark">
+              <h3 className="mb-12 text-2xl font-semibold text-dark dark:text-white">
+                Send us a Message
+              </h3>
+              <form onSubmit={handleSubmit}>
                 <div className="mb-6">
                   <label
                     htmlFor="name"
@@ -139,9 +130,11 @@ const Contact = () => {
                   <input
                     type="text"
                     name="name"
-                    id="name"
+                    value={formData.name}
+                    onChange={handleChange}
                     placeholder="Full Name"
-                    className="w-full rounded border-[#e9edf9] px-4 py-3 text-base text-body-color placeholder-body-color outline-none focus:border-primary focus-visible:shadow-none"
+                    className="w-full rounded-md border border-transparent py-3 px-[14px] text-base text-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51]"
+                    required
                   />
                 </div>
                 <div className="mb-6">
@@ -154,9 +147,11 @@ const Contact = () => {
                   <input
                     type="email"
                     name="email"
-                    id="email"
+                    value={formData.email}
+                    onChange={handleChange}
                     placeholder="example@yourmail.com"
-                    className="w-full rounded border-[#e9edf9] px-4 py-3 text-base text-body-color placeholder-body-color outline-none focus:border-primary focus-visible:shadow-none"
+                    className="w-full rounded-md border border-transparent py-3 px-[14px] text-base text-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51]"
+                    required
                   />
                 </div>
                 <div className="mb-6">
@@ -167,11 +162,13 @@ const Contact = () => {
                     Phone*
                   </label>
                   <input
-                    type="text"
+                    type="tel"
                     name="phone"
-                    id="phone"
-                    placeholder="Phone Number"
-                    className="w-full rounded border-[#e9edf9] px-4 py-3 text-base text-body-color placeholder-body-color outline-none focus:border-primary focus-visible:shadow-none"
+                    value={formData.phone}
+                    onChange={handleChange}
+                    placeholder="+885 1254 5211 552"
+                    className="w-full rounded-md border border-transparent py-3 px-[14px] text-base text-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51]"
+                    required
                   />
                 </div>
                 <div className="mb-6">
@@ -183,15 +180,17 @@ const Contact = () => {
                   </label>
                   <textarea
                     name="message"
-                    id="message"
+                    value={formData.message}
+                    onChange={handleChange}
                     placeholder="Type your message here"
-                    className="w-full rounded border-[#e9edf9] px-4 py-3 text-base text-body-color placeholder-body-color outline-none focus:border-primary focus-visible:shadow-none"
+                    className="w-full rounded-md border border-transparent py-3 px-[14px] text-base text-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51]"
+                    required
                   ></textarea>
                 </div>
                 <div className="mb-0">
                   <button
                     type="submit"
-                    className="inline-flex items-center justify-center rounded bg-primary px-6 py-3 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-90"
+                    className="inline-flex items-center justify-center rounded-md bg-primary py-3 px-6 text-center text-base font-medium text-white hover:bg-opacity-90 lg:px-8 xl:px-10"
                   >
                     Send Message
                   </button>
