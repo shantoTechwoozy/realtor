@@ -1,5 +1,3 @@
-'use client';
-import React, { useState } from 'react';
 import Image from 'next/image';
 
 interface PropertyCardProps {
@@ -20,30 +18,26 @@ interface PropertyCardProps {
 }
 
 const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
-  const [isPopupOpen, setIsPopupOpen] = useState(false);
-  const [currentImage, setCurrentImage] = useState(0);
 
-  const handleImageClick = (index: number) => {
-    setCurrentImage(index);
-    setIsPopupOpen(true);
-  };
 
   return (
     <div className="bg-slate-50 rounded-lg border-1.5 shadow-md overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col h-full min-h-[400px]">
-      <div className="relative cursor-pointer flex-shrink-0" onClick={() => handleImageClick(0)}>
-        <Image
-          src={property.images[0]}
-          alt="Property Image"
-          layout="responsive"
-          width={600}
-          height={400}
-          className="w-full h-32 object-cover p-5"
-        />
-        <div className="absolute top-5 left-5 bg-red-500 text-white text-xs px-2 py-1 ">{property.status}</div>
+      <div className="relative cursor-pointer flex-shrink-0">
+        <div className="w-full h-64 overflow-hidden">
+          <Image
+            src={property.images[0]}
+            alt="Property Image"
+            layout="fill"
+            objectFit="cover"
+          />
+        </div>
+        <div className="absolute top-5 left-5 bg-red-500 text-white text-xs px-2 py-1">{property.status}</div>
       </div>
       <div className="p-4 flex flex-col flex-grow">
         <h2 className="text-lg font-bold text-gray-900">{property.price}</h2>
-        <span className="text-gray-600 text-sm"><span className="font-semibold">Address: </span>{property.address}</span>
+        <span className="text-gray-600 text-sm">
+          <span className="font-semibold">Address: </span>{property.address}
+        </span>
         <div className="mb-1 text-xs text-gray-600">{property.mls}</div>
         <div className="flex items-center mb-1 text-sm">
           <svg
