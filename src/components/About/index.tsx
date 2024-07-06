@@ -30,11 +30,12 @@ const About = () => {
                 </p>
 
                 <a
-                  href="/#"
+                  href="tel:+13323035436"
                   className="inline-flex items-center justify-center rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white duration-300 hover:bg-primary/90"
                 >
                   Contact Us
                 </a>
+
               </div>
             </div>
 
