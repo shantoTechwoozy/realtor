@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import CallToAction from "@/components/CallToAction";
+import Cards from "@/components/card";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Features from "@/components/Features";
@@ -18,10 +19,12 @@ export default function Home() {
     <main>
       <ScrollUp />
       <Hero />
+      <Cards/>
+      <Team />
       <Features />
       <About />
       <CallToAction />
-      <Team />
+      
       {/* <HomeBlogSection posts={posts} /> */}
       <Contact />
     </main>
