@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="bg-gray-1 pb-8 pt-20 dark:bg-dark-2 lg:pb-[70px] lg:pt-[120px]"
+      className="bg-gray-1 pb-8 pt-10 dark:bg-dark-2 lg:pb-[70px] lg:pt-16"
     >
       <div className="container">
         <div className="wow fadeInUp" data-wow-delay=".2s">
