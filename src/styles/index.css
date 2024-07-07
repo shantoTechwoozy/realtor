@@ -8,7 +8,6 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-
 .sticky-menu .navbar-logo {
   @apply py-2;
 }

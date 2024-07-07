@@ -54,7 +54,7 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4">
+            <div className="w-80 max-w-full px-4">
               <Link
                 href="/"
                 className={`navbar-logo block w-full ${
@@ -64,17 +64,17 @@ const Header = () => {
                 {pathUrl !== "/" ? (
                   <>
                     <Image
-                      src={`/images/logo/logo.svg`}
+                      src={`/images/logo/sr-logo.png`}
                       alt="logo"
-                      width={240}
-                      height={30}
+                      width={340}
+                      height={60}
                       className="header-logo w-full dark:hidden"
                     />
                     <Image
-                      src={`/images/logo/logo-white.svg`}
+                      src={`/images/logo/sr-logo.png`}
                       alt="logo"
-                      width={240}
-                      height={30}
+                      width={340}
+                      height={60}
                       className="header-logo hidden w-full dark:block"
                     />
                   </>
@@ -83,19 +83,19 @@ const Header = () => {
                     <Image
                       src={`${
                         sticky
-                          ? "/images/logo/logo.svg"
-                          : "/images/logo/logo-white.svg"
+                          ? "/images/logo/sr-logo.png"
+                          : "/images/logo/sr-logo.png"
                       }`}
                       alt="logo"
-                      width={140}
-                      height={30}
+                      width={340}
+                      height={60}
                       className="header-logo w-full dark:hidden"
                     />
                     <Image
-                      src={"/images/logo/logo-white.svg"}
+                      src={"/images/logo/sr-logo.png"}
                       alt="logo"
-                      width={140}
-                      height={30}
+                      width={340}
+                      height={60}
                       className="header-logo hidden w-full dark:block"
                     />
                   </>

@@ -2,30 +2,29 @@ import Link from "next/link";
 
 const CallToAction = () => {
   return (
-    <section className="relative z-10 py-20 lg:py-[3m n5px]">
-      {/* <div className="container mx-auto flex flex-wrap items-stretch">
-        <div className="w-full lg:w-1/2">
-          <div className="relative h-full bg-[url('/images/action/action.jpg')] bg-cover bg-center bg-no-repeat">
-            <div className="absolute inset-0 bg-black opacity-30"></div>
-          </div>
+    <section className="relative z-10 overflow-hidden py-20 lg:py-[115px]">
+      <div className="container mx-auto flex flex-wrap lg:flex-nowrap">
+        <div className="w-full lg:w-1/2 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/images/action/action.jpg')" }}>
+          {/* Background image container */}
         </div>
-        <div className="w-full lg:w-1/2 flex items-center justify-center px-4">
+        <div className="w-full px-4 lg:w-1/2 flex items-center">
           <div className="mx-auto max-w-[570px] text-center lg:text-left">
-            <h2 className="mb-2.5 text-3xl font-bold text-gray-800 md:text-[38px] md:leading-[1.44]">
+            <h2 className="mb-2.5 text-3xl font-bold text-slate-600 md:text-[38px] md:leading-[1.44]">
               <span>What Are You Looking For?</span>
-              <span className="text-3xl font-normal md:text-[40px]">
+              <span className="text-3xl font-normal  md:text-[40px]">
                 {" "}
                 Get Started Now{" "}
               </span>
             </h2>
-            <p className="mx-auto mb-6 max-w-[515px] text-base leading-[1.5] text-gray-600 lg:mx-0">
-              Explore the opportunities we offer and join us to achieve your goals.
+            <p className="mx-auto mb-6 max-w-[515px] text-base leading-[1.5] text-slate-600 lg:mx-0">
+              There are many variations of passages of Lorem Ipsum but the
+              majority have suffered in some form.
             </p>
             <Link
               href="/"
-              className="inline-block rounded-md border border-transparent bg-blue-600 px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]"
+              className="inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]"
             >
-              Join Us
+              Start using Play
             </Link>
           </div>
         </div>
@@ -94,7 +93,7 @@ const CallToAction = () => {
             />
           </svg>
         </span>
-      </div> */}
+      </div>
     </section>
   );
 };

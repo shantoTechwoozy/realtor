@@ -22,7 +22,6 @@ export default function Home() {
       <About />
       <CallToAction />
       
-      {/* <HomeBlogSection posts={posts} /> */}
       <Contact />
     </main>
   );
