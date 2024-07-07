@@ -178,7 +178,7 @@ const Footer = () => {
         height={60}
         width={320}
         alt="logo"
-        className="h-12 w-80 object-contain "
+        className="h-12 w-64 object-contain "
       />
     </div>
   </div>

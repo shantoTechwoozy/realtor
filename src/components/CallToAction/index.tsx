@@ -3,7 +3,7 @@ import Link from "next/link";
 const CallToAction = () => {
   return (
     <section className="relative z-10 py-20 lg:py-[3m n5px]">
-      <div className="container mx-auto flex flex-wrap items-stretch">
+      {/* <div className="container mx-auto flex flex-wrap items-stretch">
         <div className="w-full lg:w-1/2">
           <div className="relative h-full bg-[url('/images/action/action.jpg')] bg-cover bg-center bg-no-repeat">
             <div className="absolute inset-0 bg-black opacity-30"></div>
@@ -94,7 +94,7 @@ const CallToAction = () => {
             />
           </svg>
         </span>
-      </div>
+      </div> */}
     </section>
   );
 };
