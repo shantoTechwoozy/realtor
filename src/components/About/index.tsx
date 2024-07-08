@@ -35,36 +35,32 @@ const About = () => {
                 >
                   Contact Us
                 </a>
-
               </div>
             </div>
- <div className="w-full px-2 sm:w-1/2 sm:px-4 lg:px-2 xl:px-4">
-                  <div className="relative mb-4 sm:mb-8 sm:h-[220px] md:h-[346px] lg:mb-4 lg:h-[225px] xl:mb-8 xl:h-[310px]">
-                  <video
-                        className="h-full w-full object-cover shadow-solid-l"
-                        src="/images/about/advertise.mp4"
-                        autoPlay
-                        muted
-                        loop
-                        controls={false}
-                      />
-                  </div>
+            <div className="w-full px-2 sm:w-1/2 sm:px-4 lg:px-2 xl:px-4">
+              <div className="relative mb-4 sm:mb-8 sm:h-[220px] md:h-[346px] lg:mb-4 lg:h-[225px] xl:mb-8 xl:h-[310px]">
+                <video
+                  className="h-full w-full object-cover shadow-solid-l"
+                  src="/images/about/advertise.mp4"
+                  autoPlay
+                  muted
+                  loop
+                  controls={false}
+                />
+              </div>
 
-                  <div className="relative z-10 mb-4 flex items-center justify-center overflow-hidden bg-primary px-6 py-12 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8">
-                    <div>
-                      
-                    <Image
-                      src="/images/about/about-image-01.jpg"
-                      alt="about image"
-                      fill
-                      className="h-full w-full object-cover object-center"
-                    />
-                    </div>
-                    <div>
-                    </div>
-                  </div>
+              <div className="relative z-10 mb-4 flex items-center justify-center overflow-hidden bg-primary px-6 py-12 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8">
+                <div>
+                  <Image
+                    src="/images/about/about-image-01.jpg"
+                    alt="about image"
+                    fill
+                    className="h-full w-full object-cover object-center"
+                  />
                 </div>
-        
+                <div></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

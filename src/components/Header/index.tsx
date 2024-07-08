@@ -253,7 +253,7 @@ const Header = () => {
                             ))}
                           </div>
                         </li>
-                      ),
+                      )
                     )}
                   </ul>
                 </nav>

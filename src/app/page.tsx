@@ -9,8 +9,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Shohidul Islam (Real Estate Agent | Realtor)",
-  description:
-    "Shohidul Islam (Real Estate Agent | Realtor)",
+  description: "Shohidul Islam (Real Estate Agent | Realtor)",
 };
 
 export default function Home() {
@@ -18,10 +17,10 @@ export default function Home() {
     <main>
       <ScrollUp />
       <Hero />
-      <Cards/>
+      <Cards />
       <About />
       <CallToAction />
-      
+
       <Contact />
     </main>
   );

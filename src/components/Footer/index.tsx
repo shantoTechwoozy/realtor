@@ -259,47 +259,45 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-2xl font-semibold text-white mt-4 mb-6 flex-shrink-0">
-      <div className="text-2xl font-semibold text-white mt-4 mb-6 flex-shrink-0">
-  <div className="container mx-auto flex flex-col items-center">
-    <h2 className="text-2xl font-bold mb-6 text-slate-600">Partners</h2>
-    <Image
-      src="/images/footer/brands/handshake.png"
-      height={60}
-      width={320}
-      alt="logo"
-      className="h-12 w-auto object-contain mb-4"
-    />
-  </div>
+        <div className="text-2xl font-semibold text-white mt-4 mb-6 flex-shrink-0">
+          <div className="container mx-auto flex flex-col items-center">
+            <h2 className="text-2xl font-bold mb-6 text-slate-600">Partners</h2>
+            <Image
+              src="/images/footer/brands/handshake.png"
+              height={60}
+              width={320}
+              alt="logo"
+              className="h-12 w-auto object-contain mb-4"
+            />
+          </div>
 
-  <div className="flex flex-col sm:flex-row justify-center items-center w-full overflow-x-auto space-y-4 sm:space-y-0 sm:space-x-4">
-    <Image
-      src="/images/footer/brands/partner1.png"
-      height={60}
-      width={320}
-      alt="logo"
-      className="h-8 w-auto sm:h-6 md:h-8 lg:h-10 object-contain"
-    />
+          <div className="flex flex-col sm:flex-row justify-center items-center w-full overflow-x-auto space-y-4 sm:space-y-0 sm:space-x-4">
+            <Image
+              src="/images/footer/brands/partner1.png"
+              height={60}
+              width={320}
+              alt="logo"
+              className="h-8 w-auto sm:h-6 md:h-8 lg:h-10 object-contain"
+            />
 
-    <Image
-      src="/images/footer/brands/partner2.png"
-      height={60}
-      width={320}
-      alt="logo"
-      className="h-8 w-auto sm:h-6 md:h-8 lg:h-10 object-contain"
-    />
+            <Image
+              src="/images/footer/brands/partner2.png"
+              height={60}
+              width={320}
+              alt="logo"
+              className="h-8 w-auto sm:h-6 md:h-8 lg:h-10 object-contain"
+            />
 
-    <Image
-      src="/images/footer/brands/partner3.png"
-      height={60}
-      width={320}
-      alt="logo"
-      className="h-8 w-auto sm:h-6 md:h-8 lg:h-10 object-contain"
-    />
-  </div>
-</div>
-
-</div>
-
+            <Image
+              src="/images/footer/brands/partner3.png"
+              height={60}
+              width={320}
+              alt="logo"
+              className="h-8 w-auto sm:h-6 md:h-8 lg:h-10 object-contain"
+            />
+          </div>
+        </div>
+      </div>
 
       <div className="mt-12 border-t border-[#8890A4] border-opacity-40 py-8 lg:mt-[60px]">
         <div className="container">

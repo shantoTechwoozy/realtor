@@ -10,7 +10,7 @@ const Hero = () => {
       >
         {/* Background Overlay with Blur Effect */}
         <div className="absolute inset-0 bg-black opacity-30 blur-lg"></div>
-        
+
         <div className="container relative z-10">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4">
@@ -23,8 +23,8 @@ const Hero = () => {
                 </h1>
                 <p className="mx-auto mb-9 max-w-[600px] text-base lg:text-lg font-medium">
                   Discover a wide range of properties tailored to fit your
-                  lifestyle. Whether you&apos;re looking for a modern apartment, a
-                  cozy house, or a luxurious mansion, we have something for
+                  lifestyle. Whether you&apos;re looking for a modern apartment,
+                  a cozy house, or a luxurious mansion, we have something for
                   everyone.
                 </p>
                 <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
