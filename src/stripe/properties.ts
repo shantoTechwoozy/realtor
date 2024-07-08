@@ -3,7 +3,7 @@ export const properties = [
   {
     id: 1,
     price: "$1,050,000",
-    status: "Sold",
+    status: "Available",
     mls: "MLS#: ML81947956",
     address: "1269 Lynn Avenue San Jose, California 95122",
     beds: 4,
@@ -17,7 +17,7 @@ export const properties = [
   {
     id: 2,
     price: "$535,000",
-    status: "Sold",
+    status: "Available",
     mls: "MLS#: ME223058993",
     address: "3925 Lanyard Drive Stockton, California 95206",
     beds: 4,
@@ -31,7 +31,7 @@ export const properties = [
   {
     id: 3,
     price: "$515,000",
-    status: "Sold",
+    status: "Available",
     mls: "MLS#: CRMP23052862",
     address: "2896 Harvest Drive Mariposa, California 95338",
     beds: 3,
@@ -45,7 +45,7 @@ export const properties = [
   {
     id: 4,
     price: "$565,000",
-    status: "Sold",
+    status: "Available",
     mls: "MLS#: ME222084793",
     address: "3405 Grandi Circle Stockton, California 95209",
     beds: 5,
@@ -59,7 +59,7 @@ export const properties = [
   {
     id: 5,
     price: "$506,000",
-    status: "Sold",
+    status: "Available",
     mls: "MLS#: ME221149837",
     address: "4224 Red Oak Lane Stockton, California 95205",
     beds: 4,
@@ -73,7 +73,7 @@ export const properties = [
   {
     id: 6,
     price: "$777,000",
-    status: "Sold",
+    status: "Available",
     mls: "MLS#: ME221131681",
     address: "1633 Sparrowhawk Street Manteca, California 95337",
     beds: 4,
@@ -87,7 +87,7 @@ export const properties = [
   {
     id: 7,
     price: "$820,500",
-    status: "Sold",
+    status: "Available",
     mls: "MLS#: BE40969078",
     address: "1830 PERSIMMON WAY Tracy, California 95376",
     beds: 5,
