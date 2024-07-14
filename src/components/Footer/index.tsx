@@ -8,6 +8,25 @@ const Footer = () => {
       data-wow-delay=".15s"
     >
       <div className="container">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          x="0px"
+          y="0px"
+          width="50"
+          height="50"
+          viewBox="0 0 48 48"
+          className="absolute top-12 right-24"
+        >
+          <path
+            fill="#448AFF"
+            d="M24,4C13.5,4,5,12.1,5,22c0,5.2,2.3,9.8,6,13.1V44l7.8-4.7c1.6,0.4,3.4,0.7,5.2,0.7c10.5,0,19-8.1,19-18C43,12.1,34.5,4,24,4z"
+          ></path>
+          <path
+            fill="#FFF"
+            d="M12 28L22 17 27 22 36 17 26 28 21 23z"
+          ></path>
+        </svg>
+
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
             <div className="mb-10 w-full">
@@ -217,9 +236,13 @@ const Footer = () => {
               </ul>
             </div>
           </div>
+
           <div className="w-full px-4 md:w-2/3 lg:w-6/12 xl:w-3/12">
+
             <div className="mb-10 w-full">
+
               <h4 className="mb-9 text-lg font-semibold text-white">Legal </h4>
+
               <ul>
                 <li>
                   <a
@@ -253,49 +276,53 @@ const Footer = () => {
                     Cookie Policy
                   </a>
                 </li>
+
               </ul>
+
             </div>
           </div>
+
         </div>
       </div>
       <div className="text-2xl font-semibold text-white mt-4 mb-6 flex-shrink-0">
         <div className="text-2xl font-semibold text-white mt-4 mb-6 flex-shrink-0">
           <div className="container mx-auto flex flex-col items-center">
-            <h2 className="text-lg font-bold mb-6 text-slate-600">PARTNERS</h2>
+
+            <h2 className="text-lg font-bold mb-6 text-slate-400">PARTNERS</h2>
             <Image
               src="/images/footer/brands/handshake.png"
               height={60}
               width={320}
               alt="logo"
-              className="h-12 w-auto object-contain mb-4"
+              className="h-8 w-auto object-contain mb-4"
             />
           </div>
 
           <div className="flex flex-col sm:flex-row justify-center items-center w-full overflow-x-auto space-y-4 sm:space-y-0 sm:space-x-4">
-  <Image
-    src="/images/footer/brands/partner1.png"
-    height={80}
-    width={420}
-    alt="logo"
-    className="h-12 w-auto sm:h-10 md:h-12 lg:h-14 object-contain"
-  />
+            <Image
+              src="/images/footer/brands/partner1.png"
+              height={80}
+              width={420}
+              alt="logo"
+              className="h-12 w-auto sm:h-10 md:h-12 lg:h-14 object-contain"
+            />
 
-  <Image
-    src="/images/footer/brands/partner2.png"
-    height={60}
-    width={320}
-    alt="logo"
-    className="h-8 w-auto sm:h-6 md:h-8 lg:h-10 object-contain"
-  />
+            <Image
+              src="/images/footer/brands/partner2.png"
+              height={60}
+              width={320}
+              alt="logo"
+              className="h-8 w-auto sm:h-6 md:h-8 lg:h-10 object-contain"
+            />
 
-  <Image
-    src="/images/footer/brands/partner3.png"
-    height={60}
-    width={320}
-    alt="logo"
-    className="h-8 w-auto sm:h-6 md:h-8 lg:h-10 object-contain"
-  />
-</div>
+            <Image
+              src="/images/footer/brands/partner3.png"
+              height={60}
+              width={320}
+              alt="logo"
+              className="h-8 w-auto sm:h-6 md:h-8 lg:h-10 object-contain"
+            />
+          </div>
 
         </div>
       </div>
@@ -329,13 +356,13 @@ const Footer = () => {
             </div>
             <div className="w-full px-4 md:w-1/3 lg:w-1/2">
               <div className="my-1 flex justify-center md:justify-end">
-                <p className="text-base text-gray-7">
-                  Designed and Developed by{" "}
+                <p className="text-xs text-gray-7">
+                  Designed and Developed by:{" "}
                   <a
                     href="https://techwoozy.vercel.app/"
                     rel="nofollow noopner noreferrer"
                     target="_blank"
-                    className="text-gray-1 hover:underline"
+                    className="text-gray-1 hover:underline text-lg"
                   >
                     TechWoozy LLC
                   </a>
@@ -354,6 +381,7 @@ const Footer = () => {
         <span className="absolute bottom-0 right-0 z-[-1] aspect-[31/22] w-full max-w-[372px]">
           <Image src="/images/footer/shape-3.svg" alt="shape" fill />
         </span>
+
 
         <span className="absolute right-0 top-0 z-[-1]">
           <svg

@@ -24,7 +24,7 @@ const Signin = () => {
                  <Image
                       src={`/images/logo/sr-logo-d.png`}
                       alt="logo"
-                      width={340}
+                      width={340}   
                       height={60}
                       className="header-logo w-full dark:hidden"
                     />
