@@ -41,12 +41,16 @@ const About = () => {
               <div className="relative mb-4 sm:mb-8 sm:h-[220px] md:h-[346px] lg:mb-4 lg:h-[225px] xl:mb-8 xl:h-[310px]">
                 <video
                   className="h-full w-full object-cover shadow-solid-l"
-                  src="/images/about/advertise.mp4"
                   autoPlay
                   muted
                   loop
                   controls={false}
-                />
+                  preload="auto"
+                >
+                  <source src="/images/about/advertise.mp4" type="video/mp4" />
+                  <source src="/images/about/advertise.webm" type="video/webm" />
+                  Your browser does not support the video tag.
+                </video>
               </div>
 
               <div className="relative z-10 mb-4 flex items-center justify-center overflow-hidden bg-primary px-6 py-12 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8">
@@ -58,7 +62,6 @@ const About = () => {
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
-                <div></div>
               </div>
             </div>
           </div>

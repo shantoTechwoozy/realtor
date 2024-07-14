@@ -21,23 +21,15 @@ const Signin = () => {
             >
               <div className="mb-10 text-center">
                 <Link href="/" className="mx-auto inline-block max-w-[160px]">
-                  <Image
-                    src="/images/logo/logo.svg"
-                    alt="logo"
-                    width={140}
-                    height={30}
-                    className="dark:hidden"
-                  />
-                  <Image
-                    src="/images/logo/logo-white.svg"
-                    alt="logo"
-                    width={140}
-                    height={30}
-                    className="hidden dark:block"
-                  />
+                 <Image
+                      src={`/images/logo/sr-logo-d.png`}
+                      alt="logo"
+                      width={340}
+                      height={60}
+                      className="header-logo w-full dark:hidden"
+                    />
                 </Link>
               </div>
-
               <SocialSignIn />
 
               <span className="z-1 relative my-8 block text-center">

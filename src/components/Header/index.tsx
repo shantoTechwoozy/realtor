@@ -64,7 +64,7 @@ const Header = () => {
                 {pathUrl !== "/" ? (
                   <>
                     <Image
-                      src={`/images/logo/sr-logo.png`}
+                      src={`/images/logo/sr-logo-d.png`}
                       alt="logo"
                       width={340}
                       height={60}
@@ -146,7 +146,7 @@ const Header = () => {
                       : "invisible top-[120%] opacity-0"
                   }`}
                 >
-                  <ul className="block lg:ml-8 lg:flex lg:gap-x-8 xl:ml-14 xl:gap-x-12">
+                  <ul className="block lg:ml-8 lg:flex lg:gap-x-8 xl:ml-72  xl:gap-x-12">
                     {menuData.map((menuItem, index) =>
                       menuItem.path ? (
                         <li key={index} className="group relative">
@@ -285,73 +285,6 @@ const Header = () => {
                     </svg>
                   </span>
                 </button>
-
-                {session?.user ? (
-                  <>
-                    <p
-                      className={`loginBtn px-7 py-3 text-base font-medium ${
-                        !sticky && pathUrl === "/" ? "text-white" : "text-dark"
-                      }`}
-                    >
-                      {session?.user?.name}
-                    </p>
-                    {pathUrl !== "/" || sticky ? (
-                      <button
-                        onClick={() => signOut()}
-                        className="signUpBtn rounded-lg bg-primary bg-opacity-100 px-6 py-3 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-20 hover:text-dark"
-                      >
-                        Sign Out
-                      </button>
-                    ) : (
-                      <button
-                        onClick={() => signOut()}
-                        className="signUpBtn rounded-lg bg-white bg-opacity-20 px-6 py-3 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark"
-                      >
-                        Sign Out
-                      </button>
-                    )}
-                  </>
-                ) : (
-                  <>
-                    {pathUrl !== "/" ? (
-                      <>
-                        <Link
-                          href="/signin"
-                          className="px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white"
-                        >
-                          Sign In
-                        </Link>
-                        <Link
-                          href="/signup"
-                          className="rounded-lg bg-primary px-6 py-3 text-base font-medium text-white duration-300 ease-in-out hover:bg-primary/90 dark:bg-white/10 dark:hover:bg-white/20"
-                        >
-                          Sign Up
-                        </Link>
-                      </>
-                    ) : (
-                      <>
-                        <Link
-                          href="/signin"
-                          className={`px-7 py-3 text-base font-medium hover:opacity-70 ${
-                            sticky ? "text-dark dark:text-white" : "text-white"
-                          }`}
-                        >
-                          Sign In
-                        </Link>
-                        <Link
-                          href="/signup"
-                          className={`rounded-lg px-6 py-3 text-base font-medium text-white duration-300 ease-in-out ${
-                            sticky
-                              ? "bg-primary hover:bg-primary/90 dark:bg-white/10 dark:hover:bg-white/20"
-                              : "bg-white/10 hover:bg-white/20"
-                          }`}
-                        >
-                          Sign Up
-                        </Link>
-                      </>
-                    )}
-                  </>
-                )}
               </div>
             </div>
           </div>
