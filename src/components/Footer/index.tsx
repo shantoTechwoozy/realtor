@@ -272,30 +272,31 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row justify-center items-center w-full overflow-x-auto space-y-4 sm:space-y-0 sm:space-x-4">
-            <Image
-              src="/images/footer/brands/partner1.png"
-              height={80}
-              width={420}
-              alt="logo"
-              className="h-8 w-auto sm:h-6 md:h-8 lg:h-10 object-contain"
-            />
+  <Image
+    src="/images/footer/brands/partner1.png"
+    height={80}
+    width={420}
+    alt="logo"
+    className="h-12 w-auto sm:h-10 md:h-12 lg:h-14 object-contain"
+  />
 
-            <Image
-              src="/images/footer/brands/partner2.png"
-              height={60}
-              width={320}
-              alt="logo"
-              className="h-8 w-auto sm:h-6 md:h-8 lg:h-10 object-contain"
-            />
+  <Image
+    src="/images/footer/brands/partner2.png"
+    height={60}
+    width={320}
+    alt="logo"
+    className="h-8 w-auto sm:h-6 md:h-8 lg:h-10 object-contain"
+  />
 
-            <Image
-              src="/images/footer/brands/partner3.png"
-              height={60}
-              width={320}
-              alt="logo"
-              className="h-8 w-auto sm:h-6 md:h-8 lg:h-10 object-contain"
-            />
-          </div>
+  <Image
+    src="/images/footer/brands/partner3.png"
+    height={60}
+    width={320}
+    alt="logo"
+    className="h-8 w-auto sm:h-6 md:h-8 lg:h-10 object-contain"
+  />
+</div>
+
         </div>
       </div>
 
