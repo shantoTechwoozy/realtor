@@ -18,11 +18,14 @@ export default function Home() {
     <main>
       <ScrollUp />
       <Hero />
+      <hr className="my-8 mx-auto w-64 border-t-2 border-gray-300 dark:border-gray-700" />
       <About />
-      <Poster/>
+      <hr className="my-8 mx-auto w-64 border-t-2 border-gray-300 dark:border-gray-700" />
+      <Poster />
+      <hr className="my-8 mx-auto w-64 border-t-2 border-gray-300 dark:border-gray-700" />
       <Cards />
+      <hr className="my-8 mx-auto w-64 border-t-2 border-gray-300 dark:border-gray-700" />
       <CallToAction />
-
       <Contact />
     </main>
   );

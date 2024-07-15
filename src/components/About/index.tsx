@@ -11,7 +11,7 @@ const About = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-12 max-w-[540px] lg:mb-0">
-                <h2 className="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
+                <h2 className="mb-5 text-4xl font-bold leading-tight text-gray-900 dark:text-white sm:text-5xl">
                   Comprehensive Real Estate Support
                 </h2>
                 <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">

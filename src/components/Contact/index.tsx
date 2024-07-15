@@ -4,7 +4,7 @@ import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaIdBadge } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section id="contact" className="relative py-20 md:py-[110px]">
+    <section id="contact" className="relative pb-20">
       <div className="container mx-auto flex flex-wrap items-stretch">
         <div className="w-full lg:w-5/12 xl:w-4/12 px-4">
           <div className="relative rounded-lg bg-white p-8 shadow-lg dark:bg-dark">

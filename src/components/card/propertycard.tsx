@@ -19,7 +19,7 @@ interface PropertyCardProps {
 
 const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
   return (
-    <div className="bg-slate-50 dark:bg-slate-800 rounded-lg border-1.5 shadow-md overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col h-full min-h-[400px]">
+    <div className="bg-slate-100 dark:bg-slate-800 rounded-lg border-1.5 shadow-md overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col h-full min-h-[400px]">
       <div className="relative cursor-pointer flex-shrink-0">
         <div className="w-full h-64 overflow-hidden">
           <Image

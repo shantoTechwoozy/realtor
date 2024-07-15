@@ -7,39 +7,23 @@ const Footer = () => {
       className="wow fadeInUp relative z-10 bg-[#090E34] pt-20 lg:pt-[100px]"
       data-wow-delay=".15s"
     >
-      <div className="container">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          x="0px"
-          y="0px"
-          width="50"
-          height="50"
-          viewBox="0 0 48 48"
-          className="absolute top-12 right-24"
-        >
-          <path
-            fill="#448AFF"
-            d="M24,4C13.5,4,5,12.1,5,22c0,5.2,2.3,9.8,6,13.1V44l7.8-4.7c1.6,0.4,3.4,0.7,5.2,0.7c10.5,0,19-8.1,19-18C43,12.1,34.5,4,24,4z"
-          ></path>
-          <path
-            fill="#FFF"
-            d="M12 28L22 17 27 22 36 17 26 28 21 23z"
-          ></path>
-        </svg>
 
-        <div className="-mx-4 flex flex-wrap">
+      <div className="container">
+
+
+        <div className="-mx-4 flex flex-wrap justify-center">
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
-            <div className="mb-10 w-full">
+            <div className="mb-5 w-full">
               <Link href="/" className="mb-6 inline-block max-w-[360px]">
                 <Image
                   src="/images/logo/sr-logo.png"
                   alt="logo"
                   width={340}
                   height={60}
-                  className="max-w-full"
+                  className="max-w-full w-64 sm:w-60 md:w-52 lg:w-64"
                 />
               </Link>
-              <p className="mb-8 max-w-[270px] text-base text-gray-7">
+              <p className="mb-8 w-full max-w-[370px] text-base text-gray-7">
                 Shohidul Islam, Realtor, is dedicated to ensuring digital
                 accessibility for all. We&apos;re constantly improving our web
                 experience. Your feedback and accommodation requests are
@@ -116,7 +100,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
-            <div className="mb-10 w-full">
+            <div className="mb-5 w-full">
               <h4 className="mb-9 text-lg font-semibold text-white">
                 Services
               </h4>
@@ -157,7 +141,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
-            <div className="mb-10 w-full">
+            <div className="mb-5 w-full">
               <h4 className="mb-9 text-lg font-semibold text-white">
                 Resources
               </h4>
@@ -198,7 +182,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
-            <div className="mb-10 w-full">
+            <div className="mb-5 w-full">
               <h4 className="mb-9 text-lg font-semibold text-white">Company</h4>
               <ul>
                 <li>
@@ -237,9 +221,9 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="w-full px-4 md:w-2/3 lg:w-6/12 xl:w-3/12">
+          <div className="w-full px-4 md:w-2/3 lg:w-6/12 xl:w-2/12">
 
-            <div className="mb-10 w-full">
+            <div className="mb-5 w-full">
 
               <h4 className="mb-9 text-lg font-semibold text-white">Legal </h4>
 
@@ -285,84 +269,50 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-2xl font-semibold text-white mt-4 mb-6 flex-shrink-0">
-        <div className="text-2xl font-semibold text-white mt-4 mb-6 flex-shrink-0">
-          <div className="container mx-auto flex flex-col items-center">
+        <div className="container mx-auto flex flex-col items-center">
+          <h2 className="text-lg font-bold mb-6 text-gray-400">PARTNERS</h2>
+        </div>
 
-            <h2 className="text-lg font-bold mb-6 text-slate-400">PARTNERS</h2>
-            <Image
-              src="/images/footer/brands/handshake.png"
-              height={60}
-              width={320}
-              alt="logo"
-              className="h-8 w-auto object-contain mb-4"
-            />
-          </div>
+        <div className="flex flex-col sm:flex-row justify-center items-center w-full overflow-x-auto space-y-4 sm:space-y-0 sm:space-x-4">
+          <Image
+            src="/images/footer/brands/partner1.png"
+            height={60} // Adjusted height
+            width={300} // Adjusted width
+            alt="Partner 1"
+            className="h-8 w-auto sm:h-6 md:h-8 lg:h-10 object-contain"
+          />
 
-          <div className="flex flex-col sm:flex-row justify-center items-center w-full overflow-x-auto space-y-4 sm:space-y-0 sm:space-x-4">
-            <Image
-              src="/images/footer/brands/partner1.png"
-              height={80}
-              width={420}
-              alt="logo"
-              className="h-12 w-auto sm:h-10 md:h-12 lg:h-14 object-contain"
-            />
+          <Image
+            src="/images/footer/brands/partner2.png"
+            height={40} // Adjusted height
+            width={210} // Adjusted width
+            alt="Partner 2"
+            className="h-6 w-auto sm:h-4 md:h-6 lg:h-8 object-contain"
+          />
 
-            <Image
-              src="/images/footer/brands/partner2.png"
-              height={60}
-              width={320}
-              alt="logo"
-              className="h-8 w-auto sm:h-6 md:h-8 lg:h-10 object-contain"
-            />
-
-            <Image
-              src="/images/footer/brands/partner3.png"
-              height={60}
-              width={320}
-              alt="logo"
-              className="h-8 w-auto sm:h-6 md:h-8 lg:h-10 object-contain"
-            />
-          </div>
-
+          <Image
+            src="/images/footer/brands/partner3.png"
+            height={40} // Adjusted height
+            width={210} // Adjusted width
+            alt="Partner 3"
+            className="h-6 w-auto sm:h-4 md:h-6 lg:h-8 object-contain"
+          />
         </div>
       </div>
 
-      <div className="mt-12 border-t border-[#8890A4] border-opacity-40 py-8 lg:mt-[60px]">
+
+      <div className="items-center border-t border-[#8890A4] border-opacity-40 py-8 lg:mt-[60px]">
         <div className="container">
-          <div className="-mx-4 flex flex-wrap">
+          <div className="-mx-4 flex flex-wrap justify-center">
             <div className="w-full px-4 md:w-2/3 lg:w-1/2">
-              <div className="my-1">
-                <div className="-mx-3 flex items-center justify-center md:justify-start">
-                  <a
-                    href="/#"
-                    className="px-3 text-base text-gray-7 hover:text-white hover:underline"
-                  >
-                    Privacy policy
-                  </a>
-                  <a
-                    href="/#"
-                    className="px-3 text-base text-gray-7 hover:text-white hover:underline"
-                  >
-                    Legal notice
-                  </a>
-                  <a
-                    href="/#"
-                    className="px-3 text-base text-gray-7 hover:text-white hover:underline"
-                  >
-                    Terms of service
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="w-full px-4 md:w-1/3 lg:w-1/2">
-              <div className="my-1 flex justify-center md:justify-end">
-                <p className="text-xs text-gray-7">
+              <div className="my-1 flex justify-center">
+                <p className="text-xs text-gray-7 text-center">
                   Designed and Developed by:{" "}
                   <a
                     href="https://techwoozy.vercel.app/"
                     rel="nofollow noopner noreferrer"
                     target="_blank"
-                    className="text-gray-1 hover:underline text-lg"
+                    className="text-gray-1 hover:underline text-sm"
                   >
                     TechWoozy LLC
                   </a>
@@ -639,6 +589,25 @@ const Footer = () => {
           </svg>
         </span>
       </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        x="0px"
+        y="0px"
+        width="50"
+        height="50"
+        viewBox="0 0 48 48"
+        className="absolute top-5 right-7 w-12 h-10 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-12 lg:h-12"
+
+      >
+        <path
+          fill="#448AFF"
+          d="M24,4C13.5,4,5,12.1,5,22c0,5.2,2.3,9.8,6,13.1V44l7.8-4.7c1.6,0.4,3.4,0.7,5.2,0.7c10.5,0,19-8.1,19-18C43,12.1,34.5,4,24,4z"
+        ></path>
+        <path
+          fill="#FFF"
+          d="M12 28L22 17 27 22 36 17 26 28 21 23z"
+        ></path>
+      </svg>
     </footer>
   );
 };

@@ -7,9 +7,9 @@ const Cards: React.FC = () => {
   return (
     <div className="container mx-auto px-4 py-8 mt-5">
       <SectionTitle
-        subtitle="Deals"
-        title="PROJECTS"
-        paragraph="Shohidul Islam || shohid.realty@gmail.com || Ph: 408-649-1164 || Lic# 02160189"
+        subtitle="Exclusive Deals"
+        title="Our Featured Projects"
+        paragraph="Shohidul Islam | shohid.realty@gmail.com | Ph: 408-649-1164 | Lic# 02160189"
         width="640px"
         center
       />
@@ -22,7 +22,9 @@ const Cards: React.FC = () => {
           </div>
         ))}
       </div>
+    
     </div>
+
   );
 };
 
