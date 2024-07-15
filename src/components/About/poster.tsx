@@ -31,7 +31,7 @@ const Poster = () => {
                 <p className="mb-5 text-base leading-relaxed text-gray-700 dark:text-gray-300">
                   Shohidul Islam is a dedicated and highly experienced real estate agent, recognized for his exceptional service and deep understanding of the market. With a genuine passion for helping clients find their dream homes, Shohidul offers personalized assistance and expert market insights to guide you in making informed decisions.
                   <br /><br />
-                  Our listings feature detailed descriptions, high-quality photos, and virtual tours to give you a comprehensive view of the properties. Shohidul ensures secure transactions and provides flexible viewing options, including virtual tours. Our 24/7 customer support is always available to assist with any queries.
+                  Our listings feature detailed descriptions, high-quality photos, and virtual tours to give you a comprehensive view of the properties. Shohidul ensures secure transactions and provides flexible viewing options, including virtual tours.
                   <br /><br />
                   Discover detailed neighborhood guides to find the perfect community, get financing assistance from our experts, and take advantage of our moving services for a seamless transition. We also offer legal support to ensure compliance and protect your interests.
                 </p>

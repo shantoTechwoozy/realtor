@@ -131,9 +131,9 @@ const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
             href="https://search.mlslistings.com/Matrix/Public/Portal.aspx?ID=DE-100055562129&L=1&eml=c2hvaGlkZWVAZ21haWwuY29t#1"
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative inline-block overflow-hidden border px-8 py-3 focus:outline-none focus:ring w-full text-center rounded-b-lg text-xs font-bold text-blue-600 dark:text-blue-400 transition-colors group-hover:text-white hover:bg-blue-600 hover:text-white"
+            className="group relative inline-block text-blue-600 hover:text-blue-800 transition-colors text-center text-sm font-bold"
           >
-            Read More
+            Read More     →
           </a>
         </div>
       </div>
