@@ -19,7 +19,11 @@ const menuData: Menu[] = [
     path: "/contact",
     newTab: false,
   },
-  
-
+  {
+    id: 5,
+    title: "Blog",
+    path: "/blogs",
+    newTab: false,
+  },
 ];
 export default menuData;

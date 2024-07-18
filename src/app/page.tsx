@@ -7,6 +7,7 @@ import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Poster from "@/components/About/poster";
 import { Metadata } from "next";
+import LiveTextBanner from "@/components/Announcement";
 
 export const metadata: Metadata = {
   title: "Shohidul Islam (Real Estate Agent | Realtor)",
@@ -18,14 +19,14 @@ export default function Home() {
     <main>
       <ScrollUp />
       <Hero />
-      <hr className="my-8 mx-auto w-64 border-t-2 border-gray-300 dark:border-gray-700" />
+      <LiveTextBanner/>
       <About />
       <hr className="my-8 mx-auto w-64 border-t-2 border-gray-300 dark:border-gray-700" />
       <Poster />
+      <CallToAction />
       <hr className="my-8 mx-auto w-64 border-t-2 border-gray-300 dark:border-gray-700" />
       <Cards />
       <hr className="my-8 mx-auto w-64 border-t-2 border-gray-300 dark:border-gray-700" />
-      <CallToAction />
       <Contact />
     </main>
   );

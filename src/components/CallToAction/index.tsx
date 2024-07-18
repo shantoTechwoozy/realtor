@@ -5,8 +5,8 @@ const CallToAction = () => {
     <section className="relative z-10 overflow-hidden py-20">
       <div className="container mx-auto flex flex-wrap lg:flex-nowrap">
         <div
-          className="w-full lg:w-1/2 h-64 lg:h-auto bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/images/action/action.jpg')" }}
+          className="w-full lg:w-1/2 h-64 lg:h-auto bg-contain bg-center bg-no-repeat"
+          style={{ backgroundImage: "url('/images/hero/banner.png')" }}
         >
           {/* Background image container */}
         </div>
@@ -14,7 +14,7 @@ const CallToAction = () => {
           <div className="mx-auto max-w-[570px] text-center lg:text-left">
             <h2 className="mb-2.5 text-3xl font-bold text-slate-600 md:text-[38px] md:leading-[1.44]">
               <span>What Are You Looking For?</span>
-              <span className="text-3xl font-normal  md:text-[40px]">
+              <span className="text-3xl font-normal md:text-[40px]">
                 {" "}
                 Get Started Now{" "}
               </span>
