@@ -282,7 +282,7 @@ const Header = () => {
             <UserButton afterSignOutUrl="/"  />
           </SignedIn>
           <SignedOut>
-            <SignInButton mode="modal"  afterSignInUrl="/" afterSignUpUrl="/">
+            <SignInButton mode="modal" afterSignInUrl="/" afterSignUpUrl="/">
               <button className="rounded-lg bg-primary py-3 px-7 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-90">
                 Sign In
               </button>

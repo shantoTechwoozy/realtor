@@ -6,7 +6,7 @@ const LiveTextBanner = () => {
     <div className="bg-black text-white px-3 py-2 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 relative overflow-hidden z-50">
       <div className="whitespace-nowrap animate-marquee text-glow">
         <p className="text-center font-medium sm:text-left inline-block mr-8">
-          SHOHIDUL ISLAM, REALTOR, IS DEDICATED TO ENSURING DIGITAL ACCESSIBILITY FOR ALL. WE'RE CONSTANTLY IMPROVING OUR WEB EXPERIENCE. YOUR FEEDBACK AND ACCOMMODATION REQUESTS ARE WELCOME. CONTACT US TO REPORT ISSUES OR SEEK ACCOMMODATIONS.&nbsp;&nbsp;
+          SHOHIDUL ISLAM, REALTOR, IS DEDICATED TO ENSURING DIGITAL ACCESSIBILITY FOR ALL. WE&apos;RE CONSTANTLY IMPROVING OUR WEB EXPERIENCE. YOUR FEEDBACK AND ACCOMMODATION REQUESTS ARE WELCOME. CONTACT US TO REPORT ISSUES OR SEEK ACCOMMODATIONS.&nbsp;&nbsp;
           <strong>Shohidul Islam</strong>&nbsp;&nbsp;
           <strong>Real Estate Agent | Realtor</strong>&nbsp;&nbsp;
           <strong>DRE # 02160189</strong>&nbsp;&nbsp;
