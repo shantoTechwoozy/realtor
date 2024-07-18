@@ -279,10 +279,10 @@ const Header = () => {
                 <div className="pr-2 md:pr-4 lg:pr-0">
                 <ClerkLoaded>
           <SignedIn>
-            <UserButton afterSignOutUrl="/"  />
+            <UserButton />
           </SignedIn>
           <SignedOut>
-            <SignInButton mode="modal" afterSignInUrl="/" afterSignUpUrl="/">
+            <SignInButton mode="modal">
               <button className="rounded-lg bg-primary py-3 px-7 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-90">
                 Sign In
               </button>
