@@ -89,7 +89,7 @@ body {
 
 .animate-marquee {
   display: inline-block;
-  animation: marquee 40s linear infinite; /* Increase duration for slower speed */
+  animation: marquee 20s linear infinite; /* Increase duration for slower speed */
   white-space: nowrap;
 }
 
