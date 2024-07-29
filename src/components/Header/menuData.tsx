@@ -25,5 +25,6 @@ const menuData: Menu[] = [
     path: "/blogs",
     newTab: false,
   },
+
 ];
 export default menuData;

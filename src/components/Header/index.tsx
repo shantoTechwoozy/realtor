@@ -12,8 +12,6 @@ import {
   SignInButton,
   UserButton
 } from "@clerk/nextjs";
-import { Loader } from "lucide-react";
-
 import menuData from "./menuData";
 
 const Header = () => {
@@ -224,6 +222,7 @@ const Header = () => {
                                 </svg>
                               </span>
                             </button>
+
                           )}
 
                           <div

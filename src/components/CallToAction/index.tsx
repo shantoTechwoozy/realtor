@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const CallToAction = () => {
   return (
-    <section className="relative z-10 overflow-hidden py-20">
+    <section className="relative z-10 overflow-hidden py-10 sm:py-16 md:py-20">
       <div className="container mx-auto flex flex-wrap lg:flex-nowrap">
         <div
           className="w-full lg:w-1/2 h-64 lg:h-auto bg-contain bg-center bg-no-repeat"
@@ -25,10 +25,10 @@ const CallToAction = () => {
               Explore our extensive listings and personalized services today.
             </p>
             <Link
-              href="/"
+              href="tel:+13323035436"
               className="inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]"
             >
-              Read more
+              Call Now
             </Link>
           </div>
         </div>
