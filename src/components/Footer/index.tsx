@@ -15,13 +15,8 @@ const Footer = () => {
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
             <div className="mb-5 w-full">
               <Link href="/" className="mb-6 inline-block max-w-[360px]">
-                <Image
-                  src="/images/logo/sr-logo.png"
-                  alt="logo"
-                  width={340}
-                  height={60}
-                  className="max-w-full w-64 sm:w-60 md:w-52 lg:w-64"
-                />
+              <h2 className="text-4xl font-bold text-gray-400">SHOHID REALTY</h2>
+
               </Link>
               <p className="mb-8 w-full max-w-[370px] text-base text-gray-7">
                 Shohidul Islam, Realtor, is dedicated to ensuring digital
