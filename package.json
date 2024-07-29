@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@auth/prisma-adapter": "^1.5.0",
-    "@clerk/nextjs": "^5.2.4",
+    "@clerk/nextjs": "^5.2.8",
     "axios": "^1.6.2",
     "bcrypt": "^5.0.1",
     "date-fns": "^3.4.0",
