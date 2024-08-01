@@ -74,7 +74,7 @@ const Header = () => {
                       className="header-logo w-full dark:hidden"
                     />
                     <Image
-                      src={`/images/logo/logo.png`}
+                      src={`/images/logo/wlogo.png`}
                       alt="logo"
                       width={240}
                       height={60}
@@ -94,7 +94,7 @@ const Header = () => {
                       className="header-logo w-full dark:hidden"
                     />
                     <Image
-                      src={"/images/logo/logo.png"}
+                      src={"/images/logo/wlogo.png"}
                       alt="logo"
                       width={240}
                       height={60}
