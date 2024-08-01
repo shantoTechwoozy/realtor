@@ -9,17 +9,25 @@ const Footer = () => {
     >
 
       <div className="container">
-
+        <Image
+          src={`/images/logo/wlogo.png`}
+          alt="logo"
+          width={240}
+          height={60}
+          className="header-logo w-[150px] dark:hidden lg:ml-12 md:ml-12 mb-5"
+        />
 
         <div className="-mx-4 flex flex-wrap justify-center">
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
             <div className="mb-5 w-full">
               <Link href="/" className="mb-6 inline-block max-w-[360px]">
-              <h2 className="text-4xl font-bold text-gray-400">SHOHID REALTY</h2>
+
+                <h2 className="text-4xl font-bold text-gray-400">SHOHID REALTY</h2>
+                <h4 className="text-gray-400">Real Estate Consultant and Agent</h4>
 
               </Link>
               <p className="mb-8 w-full max-w-[370px] text-base text-gray-7">
-                Shohidul Islam, Realtor, is dedicated to ensuring digital
+                Dedicated to ensuring digital
                 accessibility for all. We&apos;re constantly improving our web
                 experience. Your feedback and accommodation requests are
                 welcome. Contact us to report issues or seek accommodations.
