@@ -9,6 +9,7 @@ import "../styles/prism-vsc-dark-plus.css";
 import { useEffect, useState } from "react";
 import PreLoader from "@/components/Common/PreLoader";
 import { ClerkProvider } from '@clerk/nextjs';
+import CookieConsent from "@/components/Cookies/page";
 
 export default function RootLayout({
   children,
@@ -38,6 +39,7 @@ export default function RootLayout({
               {children}
               <Footer />
               <ScrollToTop />
+              <CookieConsent /> {/* Include the CookieConsent component */}
             </ClerkProvider>
           </ThemeProvider>
         )}
