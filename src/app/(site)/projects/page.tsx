@@ -1,11 +1,11 @@
 import React from "react";
 import PropertyCard from "./propertycard";
 import { properties } from "@/stripe/properties";
-import SectionTitle from "../Common/SectionTitle";
+import SectionTitle from "../../../components/Common/SectionTitle";
 
-const Cards: React.FC = () => {
+const Project: React.FC = () => {
   return (
-    <div className="container mx-auto px-4 py-8 mt-5">
+    <div className="container mx-auto px-4 py-8 mt-32">
       <SectionTitle
         subtitle="Exclusive Deals"
         title="Our Featured Projects"
@@ -28,4 +28,4 @@ const Cards: React.FC = () => {
   );
 };
 
-export default Cards;
+export default Project;

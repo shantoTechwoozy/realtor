@@ -6,7 +6,6 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import {
   ClerkLoaded,
-  ClerkLoading,
   SignedIn,
   SignedOut,
   SignInButton,
@@ -61,7 +60,7 @@ const Header = () => {
             <div className="w-60 max-w-full px-4">
               <Link
                 href="/"
-                className={`navbar-logo block w-full ${sticky ? "py-2" : "py-5"
+                className={`navbar-logo block w-full lg:w-[210px] ${sticky ? "py-2" : "py-5"
                   } `}
               >
                 {pathUrl !== "/" ? (
@@ -144,7 +143,7 @@ const Header = () => {
                   <ul className="block lg:ml-8 lg:flex lg:gap-x-8 xl:ml-14 xl:gap-x-12">
                     {menuData.map((menuItem, index) =>
                       menuItem.path ? (
-                        <li key={index} className="group relative">
+                        <li key={index} className="group relative font-bold">
                           {pathUrl !== "/" ? (
                             <Link
                               onClick={navbarToggleHandler}
