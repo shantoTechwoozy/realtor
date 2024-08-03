@@ -26,7 +26,7 @@ const Disclaimers: React.FC = () => {
             No Warranty
           </h2>
           <p className="text-gray-600">
-            Our website and services are provided on an "as is" and "as available" basis. We do not warrant that our website will be free from errors, interruptions, or viruses.
+            Our website and services are provided on an &quot;as is&quot; and &quot;as available&quot; basis. We do not warrant that our website will be free from errors, interruptions, or viruses.
           </p>
         </section>
 

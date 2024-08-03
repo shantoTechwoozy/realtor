@@ -66,7 +66,7 @@ const Careers: React.FC = () => {
             <div className="bg-gray-50 p-4 rounded-lg shadow-md ">
               <h3 className="text-xl font-bold text-gray-800 mb-2">Real Estate Agent</h3>
               <p className="text-gray-600 mb-2">
-                We are looking for an experienced Real Estate Agent to join our team. You will be responsible for assisting clients in buying and selling properties, providing market insights, and managing transactions.
+                {/* We are looking for an experienced Real Estate Agent to join our team. You will be responsible for assisting clients in buying and selling properties, providing market insights, and managing transactions. */}
               </p>
               <p className="text-gray-600 mb-2 flex items-center">
                 <FaMapMarkerAlt className="w-5 h-5 text-green-500 mr-2" />
