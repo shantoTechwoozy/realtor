@@ -16,7 +16,7 @@ const Disclaimers: React.FC = () => {
             General Disclaimer
           </h2>
           <p className="text-gray-600">
-            The information provided on Shohidul Islam's Real Estate website is for general informational purposes only. While we strive to provide accurate and up-to-date information, we make no warranties or representations about the accuracy, completeness, or reliability of the information.
+            The information provided on Shohidul Islam&apos;s Real Estate website is for general informational purposes only. While we strive to provide accurate and up-to-date information, we make no warranties or representations about the accuracy, completeness, or reliability of the information.
           </p>
         </section>
 

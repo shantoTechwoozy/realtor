@@ -16,7 +16,7 @@ const TermsOfService: React.FC = () => {
             Introduction
           </h2>
           <p className="text-gray-600">
-            By using Shohidul Islam's Real Estate website, you agree to these Terms of Service. If you do not agree with these terms, please do not use our website.
+            By using Shohidul Islam&apos;s Real Estate website, you agree to these Terms of Service. If you do not agree with these terms, please do not use our website.
           </p>
         </section>
 

@@ -16,7 +16,7 @@ const PrivacyPolicy: React.FC = () => {
             Introduction
           </h2>
           <p className="text-gray-600">
-            Welcome to Shohidul Islam's Real Estate website. We value your privacy and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your information when you visit our website.
+            Welcome to Shohidul Islam&apos;s Real Estate website. We value your privacy and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your information when you visit our website.
           </p>
         </section>
 

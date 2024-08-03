@@ -16,7 +16,7 @@ const CookiePolicy: React.FC = () => {
             Introduction
           </h2>
           <p className="text-gray-600">
-            Shohidul Islam's Real Estate website uses cookies to enhance your experience. This Cookie Policy explains what cookies are, how we use them, and how you can control them.
+            Shohidul Islam&apos;s Real Estate website uses cookies to enhance your experience. This Cookie Policy explains what cookies are, how we use them, and how you can control them.
           </p>
         </section>
 
