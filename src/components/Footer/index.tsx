@@ -14,7 +14,7 @@ const Footer = () => {
           alt="logo"
           width={240}
           height={60}
-          className="header-logo w-[150px] dark:hidden mb-5"
+          className="header-logo w-[150px] mb-5"
         />
 
         <div className="-mx-4 flex flex-wrap justify-between">
@@ -26,8 +26,8 @@ const Footer = () => {
                 <h4 className="text-gray-400">Real Estate Consultant and Agent</h4>
               </Link>
               <p className="mb-8 w-full max-w-[370px] text-base text-gray-500">
-                We&apos;re constantly improving our web
-                experience.Contact us to report issues or seek accommodations.
+                {/* We&apos;re constantly improving our web
+                experience.Contact us to report issues or seek accommodations. */}
               </p>
               <div className="-mx-3 flex items-center">
                 <a
