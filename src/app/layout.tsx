@@ -8,8 +8,13 @@ import "../styles/index.css";
 import "../styles/prism-vsc-dark-plus.css";
 import { ClerkProvider } from '@clerk/nextjs';
 import CookieConsent from "@/components/Cookies/page";
+import { ReactNode } from "react";
 
-export default function RootLayout({ children }) {
+interface RootLayoutProps {
+  children: ReactNode;
+}
+
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html suppressHydrationWarning={true} className="!scroll-smooth" lang="en">
       <head />
